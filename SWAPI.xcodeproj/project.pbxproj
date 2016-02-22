@@ -20,6 +20,12 @@
 		9B73CAA41C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73CAA31C7B4FB100C98BCC /* CategoriesViewController.swift */; };
 		9B73CAA51C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73CAA31C7B4FB100C98BCC /* CategoriesViewController.swift */; };
 		9B73CAA61C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73CAA31C7B4FB100C98BCC /* CategoriesViewController.swift */; };
+		9B73CAA81C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73CAA71C7B566C00C98BCC /* ObjectDetailViewController.swift */; };
+		9B73CAA91C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73CAA71C7B566C00C98BCC /* ObjectDetailViewController.swift */; };
+		9B73CAAA1C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73CAA71C7B566C00C98BCC /* ObjectDetailViewController.swift */; };
+		9B73CAAC1C7B568500C98BCC /* ObjectDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */; };
+		9B73CAAD1C7B568500C98BCC /* ObjectDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */; };
+		9B73CAAE1C7B568500C98BCC /* ObjectDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,8 @@
 		9B73CA921C7B4D9200C98BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B73CA9F1C7B4F7200C98BCC /* CategoriesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesView.xib; sourceTree = "<group>"; };
 		9B73CAA31C7B4FB100C98BCC /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		9B73CAA71C7B566C00C98BCC /* ObjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetailViewController.swift; sourceTree = "<group>"; };
+		9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjectDetailView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +147,8 @@
 			children = (
 				9B73CA9F1C7B4F7200C98BCC /* CategoriesView.xib */,
 				9B73CAA31C7B4FB100C98BCC /* CategoriesViewController.swift */,
+				9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */,
+				9B73CAA71C7B566C00C98BCC /* ObjectDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = SOURCE_ROOT;
@@ -247,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B73CAAC1C7B568500C98BCC /* ObjectDetailView.xib in Resources */,
 				9B73CAA01C7B4F7200C98BCC /* CategoriesView.xib in Resources */,
 				9B73CA7B1C7B4D9200C98BCC /* LaunchScreen.storyboard in Resources */,
 				9B73CA781C7B4D9200C98BCC /* Assets.xcassets in Resources */,
@@ -258,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B73CAAD1C7B568500C98BCC /* ObjectDetailView.xib in Resources */,
 				9B73CAA11C7B4F7200C98BCC /* CategoriesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B73CAAE1C7B568500C98BCC /* ObjectDetailView.xib in Resources */,
 				9B73CAA21C7B4F7200C98BCC /* CategoriesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B73CAA81C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */,
 				9B73CA731C7B4D9200C98BCC /* ViewController.swift in Sources */,
 				9B73CA711C7B4D9200C98BCC /* AppDelegate.swift in Sources */,
 				9B73CAA41C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */,
@@ -287,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B73CAA91C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */,
 				9B73CAA51C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */,
 				9B73CA861C7B4D9200C98BCC /* SWAPITests.swift in Sources */,
 			);
@@ -296,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B73CAAA1C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */,
 				9B73CAA61C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */,
 				9B73CA911C7B4D9200C98BCC /* SWAPIUITests.swift in Sources */,
 			);

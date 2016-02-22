@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategoriesViewController" customModule="SWAPI" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="yXR-xw-F9I" id="wm6-Rl-UcY"/>
                 <outlet property="view" destination="iN0-l3-epB" id="WJ7-eP-iXz"/>
             </connections>
         </placeholder>
@@ -14,8 +15,24 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yXR-xw-F9I">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Nal-rR-pdm"/>
+                        <outlet property="delegate" destination="-1" id="845-b1-aoJ"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="400" y="369"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="yXR-xw-F9I" secondAttribute="bottom" id="CRg-VH-0ew"/>
+                <constraint firstAttribute="trailing" secondItem="yXR-xw-F9I" secondAttribute="trailing" id="kHz-YR-Ndl"/>
+                <constraint firstItem="yXR-xw-F9I" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sYy-fg-Xtj"/>
+                <constraint firstItem="yXR-xw-F9I" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zkz-il-WKB"/>
+            </constraints>
+            <point key="canvasLocation" x="432" y="354"/>
         </view>
     </objects>
 </document>
