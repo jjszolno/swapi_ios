@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
 
-        let rootViewController = CategoriesViewController(nibName: "CategoriesView", bundle: nil)
+        let rootViewController = CategoriesViewController()
         let navigationController = UINavigationController(rootViewController: rootViewController)
 
         window?.rootViewController = navigationController
