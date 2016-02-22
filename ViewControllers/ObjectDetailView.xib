@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ObjectDetailViewController" customModule="SWAPI" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="4J7-HZ-ki1" id="uia-Vd-BnX"/>
                 <outlet property="view" destination="iN0-l3-epB" id="FOr-HQ-cE7"/>
             </connections>
         </placeholder>
@@ -15,21 +16,21 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are still rebuilding the Deathstar, please come back later. ⚠️🚧" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="id4-wV-jZf">
-                    <rect key="frame" x="127" y="175" width="346" height="250"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="346" id="bgR-jO-wob"/>
-                        <constraint firstAttribute="height" constant="250" id="oMv-oH-PHH"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4J7-HZ-ki1">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="6LP-EX-IBQ"/>
+                        <outlet property="delegate" destination="-1" id="chh-gD-5Vy"/>
+                    </connections>
+                </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="id4-wV-jZf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ivR-S2-Gvb"/>
-                <constraint firstItem="id4-wV-jZf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zeU-XA-RkE"/>
+                <constraint firstAttribute="bottom" secondItem="4J7-HZ-ki1" secondAttribute="bottom" id="Ciq-xh-aes"/>
+                <constraint firstItem="4J7-HZ-ki1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RaD-ok-Pz7"/>
+                <constraint firstAttribute="trailing" secondItem="4J7-HZ-ki1" secondAttribute="trailing" id="a2l-hX-Zy4"/>
+                <constraint firstItem="4J7-HZ-ki1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cGz-aQ-9oL"/>
             </constraints>
         </view>
     </objects>

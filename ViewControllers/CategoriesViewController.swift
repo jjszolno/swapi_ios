@@ -48,6 +48,8 @@ extension CategoriesViewController: UITableViewDelegate {
         SWAPI.getObjectList(selectedCategory) { [weak self] (objectsToShow) -> () in
 
             let detailViewController = ObjectDetailViewController()
+            detailViewController.objectList = objectsToShow
+
             self?.navigationController?.pushViewController(detailViewController, animated: true)
         }
     }
