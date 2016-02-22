@@ -44,8 +44,12 @@ extension CategoriesViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
 
-        let detailViewController = ObjectDetailViewController()
-        navigationController?.pushViewController(detailViewController, animated: true)
+        let selectedCategory = menu_options[indexPath.row]
+        SWAPI.getObjectList(selectedCategory) { [weak self] (objectsToShow) -> () in
+
+            let detailViewController = ObjectDetailViewController()
+            self?.navigationController?.pushViewController(detailViewController, animated: true)
+        }
     }
 
 }

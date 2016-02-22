@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9B73CA711C7B4D9200C98BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73CA701C7B4D9200C98BCC /* AppDelegate.swift */; };
-		9B73CA731C7B4D9200C98BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73CA721C7B4D9200C98BCC /* ViewController.swift */; };
 		9B73CA761C7B4D9200C98BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CA741C7B4D9200C98BCC /* Main.storyboard */; };
 		9B73CA781C7B4D9200C98BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CA771C7B4D9200C98BCC /* Assets.xcassets */; };
 		9B73CA7B1C7B4D9200C98BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CA791C7B4D9200C98BCC /* LaunchScreen.storyboard */; };
@@ -26,6 +25,9 @@
 		9B73CAAC1C7B568500C98BCC /* ObjectDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */; };
 		9B73CAAD1C7B568500C98BCC /* ObjectDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */; };
 		9B73CAAE1C7B568500C98BCC /* ObjectDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */; };
+		9B8FA8B91C7B5B0500197244 /* SWAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FA8B81C7B5B0500197244 /* SWAPI.swift */; };
+		9B8FA8BA1C7B5B0500197244 /* SWAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FA8B81C7B5B0500197244 /* SWAPI.swift */; };
+		9B8FA8BB1C7B5B0500197244 /* SWAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FA8B81C7B5B0500197244 /* SWAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,6 @@
 /* Begin PBXFileReference section */
 		9B73CA6D1C7B4D9200C98BCC /* SWAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B73CA701C7B4D9200C98BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B73CA721C7B4D9200C98BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B73CA751C7B4D9200C98BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B73CA771C7B4D9200C98BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B73CA7A1C7B4D9200C98BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		9B73CAA31C7B4FB100C98BCC /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		9B73CAA71C7B566C00C98BCC /* ObjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetailViewController.swift; sourceTree = "<group>"; };
 		9B73CAAB1C7B568500C98BCC /* ObjectDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjectDetailView.xib; sourceTree = "<group>"; };
+		9B8FA8B81C7B5B0500197244 /* SWAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +117,11 @@
 			children = (
 				9B73CA9E1C7B4F3600C98BCC /* ViewControllers */,
 				9B73CA701C7B4D9200C98BCC /* AppDelegate.swift */,
-				9B73CA721C7B4D9200C98BCC /* ViewController.swift */,
 				9B73CA741C7B4D9200C98BCC /* Main.storyboard */,
 				9B73CA771C7B4D9200C98BCC /* Assets.xcassets */,
 				9B73CA791C7B4D9200C98BCC /* LaunchScreen.storyboard */,
 				9B73CA7C1C7B4D9200C98BCC /* Info.plist */,
+				9B8FA8B81C7B5B0500197244 /* SWAPI.swift */,
 			);
 			path = SWAPI;
 			sourceTree = "<group>";
@@ -291,8 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B73CAA81C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */,
-				9B73CA731C7B4D9200C98BCC /* ViewController.swift in Sources */,
 				9B73CA711C7B4D9200C98BCC /* AppDelegate.swift in Sources */,
+				9B8FA8B91C7B5B0500197244 /* SWAPI.swift in Sources */,
 				9B73CAA41C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +305,7 @@
 			files = (
 				9B73CAA91C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */,
 				9B73CAA51C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */,
+				9B8FA8BA1C7B5B0500197244 /* SWAPI.swift in Sources */,
 				9B73CA861C7B4D9200C98BCC /* SWAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +316,7 @@
 			files = (
 				9B73CAAA1C7B566C00C98BCC /* ObjectDetailViewController.swift in Sources */,
 				9B73CAA61C7B4FB100C98BCC /* CategoriesViewController.swift in Sources */,
+				9B8FA8BB1C7B5B0500197244 /* SWAPI.swift in Sources */,
 				9B73CA911C7B4D9200C98BCC /* SWAPIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +526,7 @@
 				9B73CA971C7B4D9200C98BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B73CA981C7B4D9200C98BCC /* Build configuration list for PBXNativeTarget "SWAPITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				9B73CA9A1C7B4D9200C98BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B73CA9B1C7B4D9200C98BCC /* Build configuration list for PBXNativeTarget "SWAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +544,7 @@
 				9B73CA9D1C7B4D9200C98BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
